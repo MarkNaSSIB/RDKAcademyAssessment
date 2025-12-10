@@ -63,7 +63,8 @@ The app implements all requested functionality:
      ```bash
      # Linux / macOS
      export OPENWEATHER_API_KEY="your_api_key_here"
-
+    ```
+     ```bash
      # Windows (PowerShell)
      setx OPENWEATHER_API_KEY "your_api_key_here"
      ```
