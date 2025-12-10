@@ -74,3 +74,52 @@ The app implements all requested functionality:
 
     Enter the directory of the python script
     python openweatherCLI.py
+
+--------
+
+# Sorting & Median - Coding Activity 2
+
+This part of the assessment implements the provided pseudocode:
+
+- A function to **sort** an array of numbers in ascending order.
+- A function to **sort the array and compute its median**.
+
+The solution is provided as a command-line program that lets you either enter your own numbers or use predefined test arrays.
+
+---
+
+## Files
+
+- `sortAndFindMedian.py` – main script for Activity 2.
+
+---
+
+## Features
+
+- **Manual input mode**
+  - Enter numbers in a single line (e.g. `3 1 4 1 5` or `1, 2, 3 4`).
+  - The program parses the input, ignores invalid tokens, sorts the valid numbers, and prints:
+    - The original list
+    - The sorted list
+    - The median
+
+- **Predefined test arrays**
+  - A set of built-in arrays to quickly demonstrate behavior, including:
+    - Odd-length lists
+    - Even-length lists
+    - Negative values
+    - Floating-point values and duplicates
+  - You can select any test case from a menu and see its sorted version and median.
+
+- **Manual sorting algorithm**
+  - Implements **insertion sort**:
+    - Time complexity: O(n²) in the worst case
+    - Simple, readable, and appropriate for small inputs in this context
+  - Sorting is done in a dedicated function separate from median calculation, matching the spirit of the pseudocode.
+
+---
+
+### Running the Program
+
+    Enter the directory of the python script
+    python sortAndFindMedian.py
