@@ -76,6 +76,7 @@ The app implements all requested functionality:
 
     ```bash
     python openweatherCLI.py
+    ```
 
 --------
 
