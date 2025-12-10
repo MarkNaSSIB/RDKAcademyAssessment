@@ -48,3 +48,29 @@ The app implements all requested functionality:
 
    ```bash
    pip install -r requirements.txt
+
+3. **Obtain an OpenWeather API key**
+
+   - Create a free account on [OpenWeather](https://home.openweathermap.org/users/sign_up).
+   - After logging in, generate an API key from your account dashboard.
+
+4. **Provide the API key**
+
+   You can either:
+
+   - Set an environment variable:
+
+     ```bash
+     # Linux / macOS
+     export OPENWEATHER_API_KEY="your_api_key_here"
+
+     # Windows (PowerShell)
+     setx OPENWEATHER_API_KEY "your_api_key_here"
+     ```
+
+   - **Or** simply run the script and enter the key when prompted on startup.
+
+5. **Run the Application**
+
+    Enter the directory of the python script
+    python openweatherCLI.py
