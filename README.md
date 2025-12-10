@@ -126,6 +126,7 @@ The solution is provided as a command-line program that lets you either enter yo
 Enter the directory of the python script:
 
 ```bash
-python sortAndFindMedian.py.py
-
+python sortAndFindMedian.py
+```
 ---
+Thank You and Have a Nice Day :)
