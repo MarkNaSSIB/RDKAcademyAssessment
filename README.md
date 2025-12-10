@@ -76,9 +76,8 @@ The app implements all requested functionality:
 
     ```bash
     python openweatherCLI.py
-    ```
 
---------
+---
 
 # Sorting & Median - Coding Activity 2
 
@@ -122,7 +121,7 @@ The solution is provided as a command-line program that lets you either enter yo
 
 ---
 
-### Running the Program
+## Running the Program
 
     Enter the directory of the python script
 
